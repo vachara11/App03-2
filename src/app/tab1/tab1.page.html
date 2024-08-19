@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="organ">
+    <ion-title color="light">
+      Component
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-label>
+      1.Action Sheets
+    </ion-label>
+    <ion-button id="open-action-sheet">Open</ion-button>
+<ion-action-sheet trigger="open-action-sheet" header="Actions" [buttons]="actionSheetButtons"></ion-action-sheet>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>
+      2. Alert
+    </ion-label>
+    <ion-button id="present-alert">Click Me</ion-button>
+<ion-alert
+  trigger="present-alert"
+  header="ต้องการลบข้อมูลใช่ไหม"
+  [buttons]="alertButtons"
+></ion-alert>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>
+      3. Alert Input
+    </ion-label>
+    <ion-button id="alertinput">Click Me</ion-button>
+<ion-alert
+  trigger="alertinput"
+  header="กรอกข้อมูลสินค้า"
+  [buttons]="alertButtonsinput"
+  [inputs]="alertInputs"
+></ion-alert>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>
+      4. badge
+    </ion-label>
+    <ion-badge>15</ion-badge>
+
+  </ion-item>
+
+</ion-content>

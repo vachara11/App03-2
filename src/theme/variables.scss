@@ -1,0 +1,37 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-organ: #f25602;
+	--ion-color-organ-rgb: 242,86,2;
+	--ion-color-organ-contrast: #000000;
+	--ion-color-organ-contrast-rgb: 0,0,0;
+	--ion-color-organ-shade: #d54c02;
+	--ion-color-organ-tint: #f3671b;
+}
+
+.ion-color-organ {
+	--ion-color-base: var(--ion-color-organ);
+	--ion-color-base-rgb: var(--ion-color-organ-rgb);
+	--ion-color-contrast: var(--ion-color-organ-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-organ-contrast-rgb);
+	--ion-color-shade: var(--ion-color-organ-shade);
+	--ion-color-tint: var(--ion-color-organ-tint);
+}
+
+:root {
+	--ion-color-rad: #a80019;
+	--ion-color-rad-rgb: 168,0,25;
+	--ion-color-rad-contrast: #ffffff;
+	--ion-color-rad-contrast-rgb: 255,255,255;
+	--ion-color-rad-shade: #940016;
+	--ion-color-rad-tint: #b11a30;
+}
+
+.ion-color-rad {
+	--ion-color-base: var(--ion-color-rad);
+	--ion-color-base-rgb: var(--ion-color-rad-rgb);
+	--ion-color-contrast: var(--ion-color-rad-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-rad-contrast-rgb);
+	--ion-color-shade: var(--ion-color-rad-shade);
+	--ion-color-tint: var(--ion-color-rad-tint);
+}
